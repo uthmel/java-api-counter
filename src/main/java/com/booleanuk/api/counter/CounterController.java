@@ -60,7 +60,4 @@ public class CounterController {
         return name + " has value: " + newValue;
     }
 
-    public Map<String, Integer> getCounters() {
-        return counters;
-    }
 }
