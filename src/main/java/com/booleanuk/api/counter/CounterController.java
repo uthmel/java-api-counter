@@ -21,7 +21,6 @@ public class CounterController {
 
     @GetMapping()
     public String getCounter() {
-        this.counter = 0;
         return "The counter is " + this.counter;
     }
 
